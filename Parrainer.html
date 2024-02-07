@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css projet parrrainage.css">
+    <script src="javascript pour parrainage.js"></script>
+    <title>Parrainer</title>
+</head>
+<body>
+    <div class="form">
+
+        <h1>Parrainer</h1>
+            <label for="Nom">Nom*</label><br>
+            <input type="text" id="nom" required><br>
+            <label for="Prenom">Prénom*</label><br>
+            <input type="text" id="prenom" required><br>
+            <label for="dateNaissance">Date de naissance*</label><br>
+            <input type="date" name="dateNaissance" id="dateNaissance" required><br>
+            <label for="NumeroCarteElecteur">Numéro carte électeur*</label><br>
+            <input type="text" id="num" required><br>
+            <br><label for="Candidat a parrainer">Candidat à parrainer*</label><br>
+                <select  id="candidat" required>
+                    <option value="Candidat a parrainer">Aucun</option>
+                    <option value="Oulimata SARR">Oulimata Sarr</option>
+                    <option value="Abdoul MBAYE">Abdoul MBAYE</option>
+                    <option value="Ousmane SONKO">Ousmane SONKO</option>
+                    <option value="Amsatou Sow SIDIBE">Amsatou Sow SIDIBE</option>
+        
+                </select><br>
+                <div class="form-example">
+                    <input type="submit" value="Envoyer" onclick="Parrainer()"><br>
+                </div>
+ </div>
+    
+
+    </div>
+</body>
+</html>
